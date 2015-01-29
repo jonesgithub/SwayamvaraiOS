@@ -454,6 +454,9 @@
     // textView.layer.shadowOpacity = 0.6f;
     // textView.layer.shadowRadius = 0.0f;
     
+    
+    textView.autocorrectionType = UITextAutocorrectionTypeNo;
+    
     // set up key board
     //textView.keyboardType = UIKeyboardTypeAlphabet;
     //textView.returnKeyType = UIReturnKeyDefault;
@@ -484,9 +487,12 @@
     textField.font = [UIFont fontWithName:kAUCFontFamilySecondary size:kAUCFontSizeTextField];
     textField.textColor =[AppUIManager getColorOfType:kAUCColorTypeTextPrimary];
     textField.textAlignment = NSTextAlignmentLeft;
+    textField.autocorrectionType = UITextAutocorrectionTypeNo;
     
     // set border
     [AppUIManager setBottomBorder:textField withColor:[AppUIManager getColorOfType:kAUCColorTypeTertiary]];
+    
+
     
     // for auto layout
     [textField setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -525,6 +531,7 @@
     textField.textAlignment = NSTextAlignmentCenter;
     // others
     //textField.borderStyle  property
+    textField.autocorrectionType = UITextAutocorrectionTypeNo;
     //background  property
     // disabledBackground  property
     

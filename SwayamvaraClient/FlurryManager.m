@@ -12,7 +12,7 @@
 
 #pragma mark - class method
 + (NSString *)getKey{
-    return @"";
+    return @"CTCGG86MSSXHP3YN3TGC";
 }
 + (NSString *)getEventName:(kFACustomEventType)type{
     if(type==kFAUserSessionSignIn){
