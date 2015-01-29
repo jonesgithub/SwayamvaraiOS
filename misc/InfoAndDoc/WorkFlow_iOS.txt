@@ -27,7 +27,17 @@ Trouble shooting:
  	rm -fr ~/Library/Caches/CocoaPods/
         rm -fr ~/.cocoapods/repos/master/
         rm -fr Pods/
-        pod setup or pod install 
+        pod setup or pod install
+
+Alternatives:
+    The recommended way to fix your setup is to execute the following commands :
+        $ pod repo remove master
+        $ pod setup
+
+    If that doesn't work, you can also delete manually all your cached specs :
+        $ rm -rf ~/.cocoapods/
+        $ pod setup
+
 
 4. Check this link http://guides.cocoapods.org/using/troubleshooting.html
 

@@ -4,11 +4,11 @@ platform :ios, "7.0"
 pod 'AFNetworking', '~> 2.3.1'
 pod 'FlurrySDK'
 
-#target "WordOfMouthEngine" do
+#target "SwayamvaraClient" do
 #
 #end
 
-target "WordOfMouthEngineTests" do
+target "SwayamvaraClientTests" do
     #pod 'tuneup_js' # giving problem with warning: no rule to process file ... of type text.script.ruby for architecture x86_64. Moved to Integration folder
     # pod 'Specta',      '~> 0.3.0.beta1'
     pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'
