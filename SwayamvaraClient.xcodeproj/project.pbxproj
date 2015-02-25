@@ -88,6 +88,17 @@
 		1131DA6718B5584300EFDB34 /* SignInViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1131DA6518B5584300EFDB34 /* SignInViewHelper.m */; };
 		1131DA7618B5657C00EFDB34 /* WomSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1131DA7218B5657C00EFDB34 /* WomSignInViewController.m */; };
 		1131DA7718B5657C00EFDB34 /* WomSignInViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1131DA7318B5657C00EFDB34 /* WomSignInViewHelper.m */; };
+		113D5ABB1A9E6FAF00BAF385 /* ApiContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB8FEA18B0886600396418 /* ApiContent.m */; };
+		113D5ABC1A9E6FD900BAF385 /* ApiUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171CABE196917DF00B40A0E /* ApiUserManager.m */; };
+		113D5ABD1A9E6FEA00BAF385 /* AppUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE32618ADA0E100C66D86 /* AppUIManager.m */; };
+		113D5ACD1A9E718400BAF385 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 113D5ACC1A9E718400BAF385 /* CommonUtility.m */; };
+		113D5ACE1A9E718400BAF385 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 113D5ACC1A9E718400BAF385 /* CommonUtility.m */; };
+		113D5ACF1A9E72E300BAF385 /* FlurryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FE18C199BD51E005143E0 /* FlurryManager.m */; };
+		113D5AD01A9E72F800BAF385 /* ContentViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB8FDA18B049B700396418 /* ContentViewHelper.m */; };
+		113D5AD11A9E730B00BAF385 /* JSONResponseSerializerWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170EB09196DCAF600802D4D /* JSONResponseSerializerWithData.m */; };
+		113D5AD21A9E731700BAF385 /* SQLiteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CAB43218CA6C8E00FE05FD /* SQLiteAPI.m */; };
+		113D5AD31A9E736900BAF385 /* AppAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE32F18ADA1AC00C66D86 /* AppAnimationManager.m */; };
+		113D5AD41A9E737800BAF385 /* CVCircleCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11810B7818C9407F00C5246C /* CVCircleCounterView.m */; };
 		1144A1A81A2D6F1E006F3F98 /* ApiManagerContentSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1144A1A71A2D6F1E006F3F98 /* ApiManagerContentSpec.m */; };
 		115F1B9E197492D9002262F5 /* ApiRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 115F1B9D197492D9002262F5 /* ApiRequestHelper.m */; };
 		115F1B9F197492D9002262F5 /* ApiRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 115F1B9D197492D9002262F5 /* ApiRequestHelper.m */; };
@@ -104,13 +115,11 @@
 		1166AD901976F5C90010BFEA /* PlaceHolderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1166AD8F1976F5C90010BFEA /* PlaceHolderFactory.m */; };
 		1166AD911976F5C90010BFEA /* PlaceHolderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1166AD8F1976F5C90010BFEA /* PlaceHolderFactory.m */; };
 		116843211A2CFCF600B42B97 /* ApiRequestHelperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 116843201A2CFCF600B42B97 /* ApiRequestHelperSpec.m */; };
-		116D500518E3997A00579F37 /* LocalContent_FZ_DB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 116D500418E3997A00579F37 /* LocalContent_FZ_DB.sqlite */; };
 		116EE32118ADA08D00C66D86 /* ContentManagerOLd.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE32018ADA08D00C66D86 /* ContentManagerOLd.m */; };
 		116EE32718ADA0E100C66D86 /* AppUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE32618ADA0E100C66D86 /* AppUIManager.m */; };
 		116EE32A18ADA0F800C66D86 /* AppGraphicsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE32918ADA0F800C66D86 /* AppGraphicsManager.m */; };
 		116EE32D18ADA10B00C66D86 /* AppAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE32C18ADA10B00C66D86 /* AppAudioManager.m */; };
 		116EE33018ADA1AC00C66D86 /* AppAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE32F18ADA1AC00C66D86 /* AppAnimationManager.m */; };
-		116EE33618ADB58500C66D86 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE33318ADB58500C66D86 /* CommonUtility.m */; };
 		1170EB01196B83A600802D4D /* ApiUserDatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170EB00196B83A600802D4D /* ApiUserDatabaseTests.m */; };
 		1170EB04196C70B700802D4D /* ApiUserManagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170EB03196C70B700802D4D /* ApiUserManagerSpec.m */; };
 		1170EB0A196DCAF600802D4D /* JSONResponseSerializerWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170EB09196DCAF600802D4D /* JSONResponseSerializerWithData.m */; };
@@ -131,7 +140,6 @@
 		11810B7518C9386F00C5246C /* CVCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11810B7418C9386F00C5246C /* CVCircularProgressLayer.m */; };
 		11810B7918C9407F00C5246C /* CVCircleCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11810B7818C9407F00C5246C /* CVCircleCounterView.m */; };
 		11810B7C18C9419100C5246C /* CVCircleDownCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 11810B7B18C9419100C5246C /* CVCircleDownCounter.m */; };
-		11B68B6318E3BB0200AE9197 /* LocalContent_DB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 11B68B6218E3BA8600AE9197 /* LocalContent_DB.sqlite */; };
 		11B68B6518E53CDE00AE9197 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B68B6418E53CDE00AE9197 /* AppIcon.png */; };
 		11B755BE19708BA000410604 /* ApiErrorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B755BD19708BA000410604 /* ApiErrorManager.m */; };
 		11B755BF19708BA000410604 /* ApiErrorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B755BD19708BA000410604 /* ApiErrorManager.m */; };
@@ -144,7 +152,6 @@
 		11CAB43318CA6C8E00FE05FD /* SQLiteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CAB43218CA6C8E00FE05FD /* SQLiteAPI.m */; };
 		11CAB43418CA6D0700FE05FD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAB42E18CA685E00FE05FD /* libsqlite3.dylib */; };
 		11CAB43718CA711C00FE05FD /* ApiContentDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CAB43618CA711C00FE05FD /* ApiContentDatabase.m */; };
-		11CAB43D18CA944900FE05FD /* LocalContent_DB_ori.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 11CAB43C18CA944900FE05FD /* LocalContent_DB_ori.sqlite */; };
 		11CB8FC318B00B2900396418 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB8FC218B00B2900396418 /* SignInViewController.m */; };
 		11CB8FC818B00BB200396418 /* CoreFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB8FC718B00BB200396418 /* CoreFunctionViewController.m */; };
 		11CB8FCF18B0469000396418 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB8FCE18B0469000396418 /* ContentViewController.m */; };
@@ -287,7 +294,6 @@
 		11FD6CF018B3DCB9007D318E /* ComposeViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FD6CEE18B3DCB9007D318E /* ComposeViewHelper.m */; };
 		3C8695082B9F9F04EA70AFCF /* libPods-SwayamvaraClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3422206700FB5D533848CCCC /* libPods-SwayamvaraClientTests.a */; };
 		870BD85D0FBD4E1D9F135B09 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E47A1ADCFB3478F849F074C /* libPods.a */; };
-		E7B276EC194F409AA78B66AD /* libPods-WordOfMouthEngineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 137E30FB55AC4303821AB00C /* libPods-WordOfMouthEngineTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -371,6 +377,8 @@
 		1131DA7518B5657C00EFDB34 /* WomSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomSignInViewController.h; sourceTree = "<group>"; };
 		1137F95919ABF58000720F51 /* DrawCustomEffectsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCustomEffectsManager.h; sourceTree = "<group>"; };
 		1137F95A19ABF58000720F51 /* DrawCustomEffectsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCustomEffectsManager.m; sourceTree = "<group>"; };
+		113D5ACB1A9E718400BAF385 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		113D5ACC1A9E718400BAF385 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
 		1144A1A71A2D6F1E006F3F98 /* ApiManagerContentSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ApiManagerContentSpec.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		1144A1B11A2D856C006F3F98 /* TestHelperSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TestHelperSpec.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		115F1B9C197492D9002262F5 /* ApiRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequestHelper.h; sourceTree = "<group>"; };
@@ -391,7 +399,6 @@
 		1166AD8F1976F5C90010BFEA /* PlaceHolderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderFactory.m; sourceTree = "<group>"; };
 		116843201A2CFCF600B42B97 /* ApiRequestHelperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ApiRequestHelperSpec.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		116D500318E38FA200579F37 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
-		116D500418E3997A00579F37 /* LocalContent_FZ_DB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = LocalContent_FZ_DB.sqlite; sourceTree = "<group>"; };
 		116EE31C18ADA07500C66D86 /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
 		116EE31D18ADA07500C66D86 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SessionManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		116EE31F18ADA08D00C66D86 /* ContentManagerOLd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentManagerOLd.h; sourceTree = "<group>"; };
@@ -405,8 +412,6 @@
 		116EE32E18ADA1AC00C66D86 /* AppAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAnimationManager.h; sourceTree = "<group>"; };
 		116EE32F18ADA1AC00C66D86 /* AppAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAnimationManager.m; sourceTree = "<group>"; };
 		116EE33118ADB58500C66D86 /* CommonResourceDefintions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonResourceDefintions.h; sourceTree = "<group>"; };
-		116EE33218ADB58500C66D86 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonUtility.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		116EE33318ADB58500C66D86 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CommonUtility.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		116EE33418ADB58500C66D86 /* CoreSizeDefintions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreSizeDefintions.h; sourceTree = "<group>"; };
 		116EE33518ADB58500C66D86 /* LocalMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LocalMacros.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		1170EB00196B83A600802D4D /* ApiUserDatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiUserDatabaseTests.m; sourceTree = "<group>"; };
@@ -434,7 +439,6 @@
 		11810B7818C9407F00C5246C /* CVCircleCounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CVCircleCounterView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		11810B7A18C9419100C5246C /* CVCircleDownCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCircleDownCounter.h; sourceTree = "<group>"; };
 		11810B7B18C9419100C5246C /* CVCircleDownCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCircleDownCounter.m; sourceTree = "<group>"; };
-		11B68B6218E3BA8600AE9197 /* LocalContent_DB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = LocalContent_DB.sqlite; sourceTree = "<group>"; };
 		11B68B6418E53CDE00AE9197 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		11B755BC19708BA000410604 /* ApiErrorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiErrorManager.h; sourceTree = "<group>"; };
 		11B755BD19708BA000410604 /* ApiErrorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiErrorManager.m; sourceTree = "<group>"; };
@@ -447,7 +451,6 @@
 		11CAB43218CA6C8E00FE05FD /* SQLiteAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SQLiteAPI.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		11CAB43518CA711C00FE05FD /* ApiContentDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ApiContentDatabase.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		11CAB43618CA711C00FE05FD /* ApiContentDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ApiContentDatabase.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		11CAB43C18CA944900FE05FD /* LocalContent_DB_ori.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = LocalContent_DB_ori.sqlite; sourceTree = "<group>"; };
 		11CB8FC118B00B2900396418 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		11CB8FC218B00B2900396418 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SignInViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		11CB8FC618B00BB200396418 /* CoreFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFunctionViewController.h; sourceTree = "<group>"; };
@@ -590,7 +593,6 @@
 				1114A80F182D8B3400089669 /* XCTest.framework in Frameworks */,
 				1114A811182D8B3400089669 /* UIKit.framework in Frameworks */,
 				1114A810182D8B3400089669 /* Foundation.framework in Frameworks */,
-				E7B276EC194F409AA78B66AD /* libPods-WordOfMouthEngineTests.a in Frameworks */,
 				3C8695082B9F9F04EA70AFCF /* libPods-SwayamvaraClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -772,10 +774,10 @@
 			isa = PBXGroup;
 			children = (
 				116EE33118ADB58500C66D86 /* CommonResourceDefintions.h */,
+				113D5ACB1A9E718400BAF385 /* CommonUtility.h */,
+				113D5ACC1A9E718400BAF385 /* CommonUtility.m */,
 				1166AD8D1976F5500010BFEA /* PlaceHolderGenerator */,
 				116D500318E38FA200579F37 /* AppConstants.h */,
-				116EE33218ADB58500C66D86 /* CommonUtility.h */,
-				116EE33318ADB58500C66D86 /* CommonUtility.m */,
 				116EE33418ADB58500C66D86 /* CoreSizeDefintions.h */,
 				116EE33518ADB58500C66D86 /* LocalMacros.h */,
 			);
@@ -1095,9 +1097,6 @@
 		11B67DC418CA5CEE00F6E04B /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				11B68B6218E3BA8600AE9197 /* LocalContent_DB.sqlite */,
-				116D500418E3997A00579F37 /* LocalContent_FZ_DB.sqlite */,
-				11CAB43C18CA944900FE05FD /* LocalContent_DB_ori.sqlite */,
 				11CAB43518CA711C00FE05FD /* ApiContentDatabase.h */,
 				11CAB43618CA711C00FE05FD /* ApiContentDatabase.m */,
 				11CB8FEA18B0886600396418 /* ApiContent.m */,
@@ -1495,12 +1494,10 @@
 				11D3717219DA000000AEF362 /* S13~iphone.png in Resources */,
 				111A272419C9087100BA2D85 /* newtopic-btn~iphone.png in Resources */,
 				11D3701E19D0F47100AEF362 /* kill-btn@2x~iphone.png in Resources */,
-				11B68B6318E3BB0200AE9197 /* LocalContent_DB.sqlite in Resources */,
 				111A274A19C9F07000BA2D85 /* signup-nav-btn@2x~iphone.png in Resources */,
 				11D3702219D0F47100AEF362 /* spread-btn@2x~iphone.png in Resources */,
 				11D370DD19D5D9B800AEF362 /* x_4~iphone.png in Resources */,
 				11D3711919D5DB3100AEF362 /* s2w@2x.png in Resources */,
-				116D500518E3997A00579F37 /* LocalContent_FZ_DB.sqlite in Resources */,
 				111A272219C9087100BA2D85 /* newtopic-btn@2x~iphone.png in Resources */,
 				1163F6C91989BC4100FDE74A /* .gitignore in Resources */,
 				11D3715C19DA000000AEF362 /* S2~iphone.png in Resources */,
@@ -1536,7 +1533,6 @@
 				111A274419C909D600BA2D85 /* signup-btn@2x~iphone.png in Resources */,
 				11D3716219DA000000AEF362 /* S5~iphone.png in Resources */,
 				11D3715E19DA000000AEF362 /* S3~iphone.png in Resources */,
-				11CAB43D18CA944900FE05FD /* LocalContent_DB_ori.sqlite in Resources */,
 				11D370D719D5D9B800AEF362 /* x_3@2x~iphone.png in Resources */,
 				11D3702019D0F47100AEF362 /* kill-btn~iphone.png in Resources */,
 				11D3703219D5D63000AEF362 /* logo-nav@2x~iphone.png in Resources */,
@@ -1765,7 +1761,6 @@
 				1131DA7718B5657C00EFDB34 /* WomSignInViewHelper.m in Sources */,
 				1170EB0A196DCAF600802D4D /* JSONResponseSerializerWithData.m in Sources */,
 				11CAB43718CA711C00FE05FD /* ApiContentDatabase.m in Sources */,
-				116EE33618ADB58500C66D86 /* CommonUtility.m in Sources */,
 				111E5975182ECA8F00B7FD49 /* DebugTestManager.m in Sources */,
 				111E597D18309A6700B7FD49 /* ApiUser.m in Sources */,
 				11720F5118B6A83500124C9F /* ProfileViewHelper.m in Sources */,
@@ -1782,6 +1777,7 @@
 				11CB8FD518B0473500396418 /* ProfileViewController.m in Sources */,
 				1166AD901976F5C90010BFEA /* PlaceHolderFactory.m in Sources */,
 				1166AD8B1975ECDB0010BFEA /* WomSignUpViewHelper.m in Sources */,
+				113D5ACD1A9E718400BAF385 /* CommonUtility.m in Sources */,
 				11810B7C18C9419100C5246C /* CVCircleDownCounter.m in Sources */,
 				11CB8FD218B046C400396418 /* HistoryViewController.m in Sources */,
 				11FD6CED18B18C75007D318E /* ComposeViewController.m in Sources */,
@@ -1813,12 +1809,16 @@
 				11D3712F19D5E31000AEF362 /* CustomActivityIndicator.m in Sources */,
 				1170EB04196C70B700802D4D /* ApiUserManagerSpec.m in Sources */,
 				1144A1A81A2D6F1E006F3F98 /* ApiManagerContentSpec.m in Sources */,
+				113D5AD01A9E72F800BAF385 /* ContentViewHelper.m in Sources */,
 				11D3702F19D5CFBB00AEF362 /* UIImageView+AnimationCompletion.m in Sources */,
 				11F269C6197848700051FA38 /* TestHelper.m in Sources */,
+				113D5ABB1A9E6FAF00BAF385 /* ApiContent.m in Sources */,
+				113D5AD21A9E731700BAF385 /* SQLiteAPI.m in Sources */,
 				1174E0AE1991977E003251C7 /* SpectaSetUp.m in Sources */,
 				110B67571A2A817400FB7DC5 /* ApiContentFlag.m in Sources */,
 				1166AD8C1975ECDB0010BFEA /* WomSignUpViewHelper.m in Sources */,
 				11BDC0EC1A23DB0F002131DA /* ApiCommentResponse.m in Sources */,
+				113D5ABC1A9E6FD900BAF385 /* ApiUserManager.m in Sources */,
 				1166AD881975EC640010BFEA /* WomSignUpViewController.m in Sources */,
 				116843211A2CFCF600B42B97 /* ApiRequestHelperSpec.m in Sources */,
 				117B61561A2E522800FA2532 /* ApiManagerHisotrySpec.m in Sources */,
@@ -1827,7 +1827,11 @@
 				111E5976182ECA8F00B7FD49 /* DebugTestManager.m in Sources */,
 				1166AD7B1974BEBA0010BFEA /* ApiContentManager.m in Sources */,
 				111E597E18309A6700B7FD49 /* ApiUser.m in Sources */,
+				113D5ACF1A9E72E300BAF385 /* FlurryManager.m in Sources */,
+				113D5ABD1A9E6FEA00BAF385 /* AppUIManager.m in Sources */,
 				11FAEA941A2E41A300B8A111 /* ApiManagerCommentSpec.m in Sources */,
+				113D5AD31A9E736900BAF385 /* AppAnimationManager.m in Sources */,
+				113D5AD41A9E737800BAF385 /* CVCircleCounterView.m in Sources */,
 				110B67521A2A781800FB7DC5 /* ApiNotificationCount.m in Sources */,
 				1170EB01196B83A600802D4D /* ApiUserDatabaseTests.m in Sources */,
 				1166AD7F19759ED30010BFEA /* ApiValidationManager.m in Sources */,
@@ -1836,7 +1840,9 @@
 				1166AD911976F5C90010BFEA /* PlaceHolderFactory.m in Sources */,
 				11B755BF19708BA000410604 /* ApiErrorManager.m in Sources */,
 				11D1B6F0183AB0690022AF62 /* ApiManagerUserSessionTests.m in Sources */,
+				113D5AD11A9E730B00BAF385 /* JSONResponseSerializerWithData.m in Sources */,
 				112146E019CBBB2100346B85 /* SignInAndOutViewController.m in Sources */,
+				113D5ACE1A9E718400BAF385 /* CommonUtility.m in Sources */,
 				11F1C98E1979AB6C006DA90D /* ContentManager.m in Sources */,
 				111E5971182EC53F00B7FD49 /* ApiManager.m in Sources */,
 				1171CAC31969E30500B40A0E /* ApiUserDatabase.m in Sources */,
